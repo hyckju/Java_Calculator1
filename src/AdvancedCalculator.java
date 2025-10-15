@@ -1,5 +1,6 @@
 class AdvancedCalculator extends Calculator {
 
+
     // 곱셈 메서드 (부모 클래스의 multiply와는 다른 직접 구현)
     // 부모 클래스의 num1, num2 멤버 변수를 사용하고 result에 결과를 저장합니다.
     @Override // 부모 클래스의 메서드를 오버라이딩함을 명시
