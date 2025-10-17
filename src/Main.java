@@ -18,5 +18,12 @@ public class Main {
         advancedCalc.setNumbers(9, 3);
         advancedCalc.divide();
         advancedCalc.displayResult("/");
+
+        ScientifiCalculator scientificCalc = new ScientifiCalculator();
+
+        scientificCalc.setNumbers(3, 2);
+        scientificCalc.power();
+        scientificCalc.displayResult("^");
+
     }
 }
