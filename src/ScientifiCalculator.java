@@ -25,7 +25,6 @@ class ScientifiCalculator extends AdvancedCalculator {
         }
         result = scResult;
         return result;
-
     }
 
 }
