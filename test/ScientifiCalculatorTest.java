@@ -1,13 +1,19 @@
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class ScientifiCalculatorTest {
+    ScientifiCalculator sci;
+
+    @BeforeEach
+    void setUp() {
+        sci = new ScientifiCalculator();
+        sci.setNumbers(4, 2);
+    }
 
     @Test
     void testPower() {
-        ScientifiCalculator sccalc = new ScientifiCalculator();
-        sccalc.setNumbers(3,3);
-        assertEquals(27, sccalc.power());
+        assertEquals(16, sci.power());
     }
 }
