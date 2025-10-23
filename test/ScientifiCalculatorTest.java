@@ -5,6 +5,9 @@ import static org.junit.jupiter.api.Assertions.*;
 class ScientifiCalculatorTest {
 
     @Test
-    void divideMod() {
+    void testPower() {
+        ScientifiCalculator sccalc = new ScientifiCalculator();
+        sccalc.setNumbers(3,3);
+        assertEquals(27, sccalc.power());
     }
 }
